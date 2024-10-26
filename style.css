@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(orange,white,green);
+    color:navy;
+    font-size: 23px;
+    border: 20px solid black;
+    border-style: double;
+    padding: 10px;
+    margin: 20px;
+    font-family: "Playwrite GB S", cursive;
+}
+
+     /*The animationcode*/
+     @keyframes example{
+        33% {background-color: orange;}
+        66% {background-color: white;}
+        100% {background-color: green;}
+    } 
+    /*The element to play the animation to*/
+    h1{
+        animation-name: example;
+        animation-duration: 5s;
+    }
+    a:hover{
+        color: crimson;
+    }
+    ul li:hover{
+        color: crimson;
+    }
+    li:nth-child(1){
+        background-color: rgb(255, 255, 255);
+    }
+    p::first-letter{
+        font-size: 50px;
+        color: crimson;
+    }
+
+        
+    
